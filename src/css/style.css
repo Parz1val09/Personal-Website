@@ -1,0 +1,168 @@
+body {
+    font-family: "poppins";
+    background-color: #E0DFE1;
+}
+
+.heading {
+    max-width: 100%;
+    display: flex;
+    background-color: #42213D;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+}
+
+.heading .menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#mysocial {
+    margin: 0;
+    font-weight: bolder;
+    color: #C2C1C2;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.heading nav li a {
+    margin-right: 25px;
+    font-weight: bolder;
+    color: #C2C1C2;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.2s;
+    overflow: auto;
+}
+
+.heading nav li a:hover {
+    background-color: #C2C1C2;
+    color: #000;
+}
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container .myself {
+    background-color: #655F6C;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px  rgba(0, 0, 0, .3);
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    overflow: auto;
+    transition: 0.4s;
+}
+
+.container .myself:hover {
+    transform: scale(1.1);
+}
+
+.myself section h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #E0DFE1;
+    margin-right: 10px;
+}
+
+.myself section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dan {
+    width:40px;
+}
+
+.myself p {
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    color: #E0DFE1;
+    font-weight: 300;
+}
+
+.container .dev {
+    background-color: #655F6C;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px  rgba(0, 0, 0, .3);
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    overflow: auto;
+    transition: 0.4s;
+}
+
+.container .dev:hover {
+    transform: scale(1.1);
+}
+
+.dev p {
+    padding-top: 10px;
+    color: #E0DFE1;
+    font-weight: 300;
+}
+
+.container .box2 {
+    background-color: #655F6C;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px  rgba(0, 0, 0, .3);
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    overflow: auto;
+    transition: 0.4s;
+}
+
+.container .box2:hover {
+    transform: scale(1.1);
+}
+
+.box2 p {
+    padding-top: 10px;
+    color: #E0DFE1;
+    font-weight: 300;
+}
+
+.container .box3 {
+    background-color: #655F6C;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px  rgba(0, 0, 0, .3);
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    overflow: auto;
+    transition: 0.4s;
+}
+
+.container .box3:hover {
+    transform: scale(1.1);
+}
+
+.box3 p {
+    padding-top: 10px;
+    color: #E0DFE1;
+    font-weight: 300;
+}
